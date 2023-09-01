@@ -34,7 +34,7 @@ def EsPrimo(valor):
         EsPrimo(8) debe retornar False
     '''
     # Tu código aca:
-    EsPrimo = True
+    Es_Primo = True
     if type(valor) != int:
         return None
     if valor <= 1:
@@ -43,9 +43,9 @@ def EsPrimo(valor):
         return True
     for i in range(2, valor):
         if valor % i == 0:
-            EsPrimo = False
+            Es_Primo = False
             break
-    return EsPrimo
+    return Es_Primo
 
 
 def ClaseAnimal(especie, color):
